@@ -55,7 +55,7 @@ def fill_fuzzer_tab(self, fuzzer_top_tab: QtWidgets.QTabWidget, row: int):
         fuzzer_asn1_checkBox.setChecked(True)
     else:
         fuzzer_asn1_checkBox.setStyleSheet("color: red")
-        fuzzer_asn1_checkBox.setText("ASN1 files not present.\nPlease acquire them as instructed in the\nsrc/v2xFuzzyTester/v2xMessageCodec/README.md\nfile and restart the application.")
+        fuzzer_asn1_checkBox.setText("ASN1 files not present.\nPlease acquire them and complie as instructed in the\nsrc/v2xFuzzyTester/v2xMessageCodec/README.md\nfile and restart the application.")
         fuzzer_asn1_checkBox.setChecked(False)
 
 
