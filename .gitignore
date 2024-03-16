@@ -2,3 +2,4 @@
 *.y*ml
 __pycache__/
 .vscode/
+src/v2x-fuzzy-tester/
